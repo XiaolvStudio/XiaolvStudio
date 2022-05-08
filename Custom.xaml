@@ -1,0 +1,157 @@
+
+<local:MyCard>
+    <StackPanel Margin="25,15,23,15">
+        <TextBlock Margin="0,0,0,4" HorizontalAlignment="Center" FontSize="16"
+                   Text="  欢迎使用 Plain Craft Launcher 2 启动器！" />
+        <TextBlock Margin="0,4,0,4" HorizontalAlignment="Center" FontSize="16"
+                   Text="  本启动器为以下团队定制：" />
+        <TextBlock Margin="0,0,0,4" Foreground="#8C7721" HorizontalAlignment="Center" FontSize="36"
+                   Text="小绿工作室" />
+        <TextBlock Margin="0,4,0,4" Foreground="#990000" HorizontalAlignment="Center" FontSize="16"
+                   Text="  该版本仅限内部使用，严禁外传！" />
+    </StackPanel>
+</local:MyCard>
+    
+<local:MyCard Title="网站书签库" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+
+        <local:MyCard Title="搜索" CanSwap="True" IsSwaped="True">
+            <StackPanel Margin="25,40,23,15">
+                <local:MyButton Height="35" Text="打开浏览器起始页" EventType="打开网页" EventData="https://so.lenovo.com.cn/" />
+                <local:MyButton Height="35" Text="打开百度搜索引擎" EventType="打开网页" EventData="https://www.baidu.com/" />
+                <local:MyButton Height="35" Text="打开搜狗搜索引擎" EventType="打开网页" EventData="https://www.sogou.com/" />
+                <local:MyButton Height="35" Text="打开必应搜索引擎" EventType="打开网页" EventData="https://cn.bing.com/" />
+                <local:MyButton Height="35" Text="打开 360 搜索引擎" EventType="打开网页" EventData="https://www.so.com/" />
+            </StackPanel>
+        </local:MyCard>
+
+        <local:MyCard Title="社区" CanSwap="True" IsSwaped="True">
+            <StackPanel Margin="25,40,23,15">
+                <local:MyButton Height="35" Text="打开哔哩哔哩" EventType="打开网页" EventData="https://www.bilibili.com/" />
+                <local:MyButton Height="35" Text="打开编程猫社区" EventType="打开网页" EventData="https://shequ.codemao.cn/" />
+                <local:MyButton Height="35" Text="打开学而思编程社区" EventType="打开网页" EventData="https://code.xueersi.com/" />
+            </StackPanel>
+        </local:MyCard>
+
+        <local:MyCard Title="下载" CanSwap="True" IsSwaped="True">
+            <StackPanel Margin="25,40,23,15">
+                <local:MyButton Height="35" Text="打开系统映像下载站" EventType="打开网页" EventData="https://www.microsoft.com/zh-cn/software-download/" />
+                <local:MyButton Height="35" Text="打开专业软件下载站" EventType="打开网页" EventData="https://msdn.itellyou.cn/" />
+                <local:MyButton Height="35" Text="打开操作系统下载站" EventType="打开网页" EventData="https://next.itellyou.cn/" />
+            </StackPanel>
+        </local:MyCard>
+
+        <local:MyCard Title="数码" CanSwap="True" IsSwaped="True">
+            <StackPanel Margin="25,40,23,15">
+                <local:MyButton Height="35" Text="打开 Apple 官方网站" EventType="打开网页" EventData="https://www.apple.com.cn/" />
+                <local:MyButton Height="35" Text="打开 Microsoft 官方网站" EventType="打开网页" EventData="https://www.microsoft.com/zh-cn/" />
+            </StackPanel>
+        </local:MyCard>
+
+        <local:MyCard Title="麦块" CanSwap="True" IsSwaped="True">
+            <StackPanel Margin="25,40,23,15">
+                <local:MyButton Height="35" Text="打开 Minecraft 官方网站" EventType="打开网页" EventData="https://www.minecraft.net/zh-hans" />
+                <local:MyButton Height="35" Text="打开 Minecraft 中国官网" EventType="打开网页" EventData="https://mc.163.com/index.html" />
+                <local:MyButton Height="35" Text="打开 Minecraft 中文论坛" EventType="打开网页" EventData="https://www.mcbbs.net/" />
+            </StackPanel>
+        </local:MyCard>
+
+        <local:MyCard Title="主页" CanSwap="True" IsSwaped="True">
+            <StackPanel Margin="25,40,23,5">
+                <local:MyButton Height="35" Text="打开编程猫工作室主页" EventType="弹出窗口" EventData="提醒|我们暂时还没有入驻编程猫……\n等室长凑够五十个赞以后一定会注册的……" />
+                <local:MyButton Height="35" Text="打开编程猫个人主页" EventType="打开网页" EventData="https://shequ.codemao.cn/user/4664861" />
+                <local:MyButton Height="35" Text="打开学而思编程主页" EventType="打开网页" EventData="https://code.xueersi.com/space/35743238" />
+                <local:MyButton Height="35" Text="打开爱发电主页" EventType="打开网页" EventData="https://www.afdian.net/@Xiaolv114514" />
+                <local:MyTextButton Margin="0,4,0,0" HorizontalAlignment="Center" Text="关于小绿工作室的作品" EventType="弹出窗口" 
+		EventData="关于小绿工作室的编程作品|我们的编程作品以游戏、工具和梗为主，\n使用 Codemao Kitten 以及 Codemao CoCo 制作而成。\n有时，我们还会把作品同步发到学而思编程社区。" />
+            </StackPanel>
+        </local:MyCard>
+
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="系统命令库" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" Foreground="#666666" HorizontalAlignment="Center" Text="根据系统的不同，下列部分功能可能无法使用。" />
+        <TextBlock Margin="0,0,0,4" Foreground="#666666" HorizontalAlignment="Center" Text="按 Win + R 输入命令，Win + S / Q 搜索文件。" />
+
+        <local:MyCard Title="管理" CanSwap="True" IsSwaped="True">
+            <StackPanel Margin="25,40,23,15">
+                <local:MyButton Height="35" Text="管理 Windows 用户账户" EventType="打开文件" EventData="netplwiz.exe" />
+                <local:MyButton Height="35" Text="启动 Windows 计算机管理" EventType="打开文件" EventData="compmgmt.msc" />
+                <local:MyButton Height="35" Text="启动 Windows 任务管理器" EventType="打开文件" EventData="taskmgr.exe" />
+                <local:MyButton Height="35" Text="启动 Windows 注册表编辑器" EventType="打开文件" EventData="regedit.exe" />
+                <local:MyButton Height="35" Text="启动 Windows 任务计划程序" EventType="打开文件" EventData="taskschd.msc" />
+                <local:MyButton Height="35" Text="启动 Windows 组策略编辑器" EventType="打开文件" EventData="gpedit.msc" />
+            </StackPanel>
+        </local:MyCard>
+
+        <local:MyCard Title="工具" CanSwap="True" IsSwaped="True">
+            <StackPanel Margin="25,40,23,15">
+                <local:MyButton Height="35" Text="启动 Windows 画图" EventType="打开文件" EventData="mspaint.exe" />
+                <local:MyButton Height="35" Text="启动 Windows 记事本" EventType="打开文件" EventData="notepad.exe" />
+                <local:MyButton Height="35" Text="启动 Windows 计算器" EventType="打开文件" EventData="calc.exe" />
+                <local:MyButton Height="35" Text="启动 Windows 写字板" EventType="打开文件" EventData="write.exe" />
+                <local:MyButton Height="35" Text="启动 Windows 截图工具" EventType="打开文件" EventData="snippingtool.exe" />
+            </StackPanel>
+        </local:MyCard>
+
+        <local:MyCard Title="系统" CanSwap="True" IsSwaped="True">
+            <StackPanel Margin="25,40,23,15">
+                <local:MyButton Height="35" Text="查看当前 Windows 系统信息" EventType="打开文件" EventData="winver.exe" />
+                <local:MyButton Height="35" Text="查看当前 Windows 系统配置" EventType="打开文件" EventData="msconfig.exe" />
+                <local:MyButton Height="35" Text="更改 Windows 设置" EventType="打开文件" EventData="ms-settings:" />
+                <local:MyButton Height="35" Text="打开 Windows 商店" EventType="打开文件" EventData="ms-windows-store:" />
+                <local:MyButton Height="35" Text="启动 Windows 终端" EventType="打开文件" EventData="powershell.exe" />
+                <local:MyButton Height="35" Text="启动 Windows 命令提示符" EventType="打开文件" EventData="cmd.exe" />
+                <local:MyButton Height="35" Text="启动 Windows 文件资源管理器" EventType="打开文件" EventData="explorer.exe" />
+            </StackPanel>
+        </local:MyCard>
+
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="编程工具库" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+
+        <local:MyCard Title="编程猫 图形化编程" CanSwap="True" IsSwaped="True">
+            <StackPanel Margin="5,40,5,5">
+                <local:MyListItem Margin="-5,0,-5,0" 
+		                  Title="编程猫 Kitten 4" Info="新版 Kitten 4 在旧版本 Kitten 3 的基础上做了许多改进。" 
+		                  EventType="打开网页" EventData="https://kitten4.codemao.cn/" Type="Clickable" />
+                <local:MyListItem Margin="-5,0,-5,0" 
+		                  Title="编程猫 Kitten 3" Info="类似 Scratch ，Kitten 是编程猫推出的一种图形化编程工具。" 
+		                  EventType="打开网页" EventData="https://kitten.codemao.cn/" Type="Clickable" />
+                <local:MyListItem Margin="-5,0,-5,0" 
+		                  Title="编程猫 CoCo" Info="CoCo 是使用图形化积木开发安卓 App 的一个网站。" 
+		                  EventType="打开网页" EventData="https://appcraft.codemao.cn/" Type="Clickable" />
+            </StackPanel>
+        </local:MyCard>
+
+        <local:MyCard Title="Scratch 图形化编程" CanSwap="True" IsSwaped="True">
+            <StackPanel Margin="5,40,5,5">
+                <local:MyListItem Margin="-5,0,-5,0" 
+		                  Title="Scratch 官方版 3.24" Info="Scratch 是美国麻省理工学院推出的一款图形化编程软件。" 
+		                  EventType="弹出窗口" EventData="提醒|该版本是精简版，因此整合包内并未附带 Scratch 程序包。\n请自行前往官网下载，或选择任一渠道服。" Type="Clickable" />
+                <local:MyListItem Margin="-5,0,-5,0" 
+		                  Title="Scratch 学而思网页版" Info="该版本是学而思编程的网页版，可以将作品直接发布至社区。" 
+		                  EventType="打开网页" EventData="https://code.xueersi.com/scratch3/" Type="Clickable" />
+                <TextBlock Margin="5,5,5,5" Foreground="#666666" TextWrapping="Wrap" 
+	Text="如果你拥有渠道服账号，请选择对应的渠道服；如果要编辑早期版本的 Scratch 文件（*.sb *.sb2），建议选择学而思版。仅当网络环境不佳或无任何渠道服账号，且要编辑 Scratch 3 文件（*.sb3）时再选择官方版。由于部分网络无法连接至 Scratch 官方服务器，因此整合包已附带离线版。如仍想访问官方网页版，请科学上网。" />
+            </StackPanel>
+        </local:MyCard>
+
+        <local:MyCard Title="Python 文本式编程" CanSwap="True" IsSwaped="True">
+            <StackPanel Margin="5,40,5,5">
+                <local:MyListItem Margin="-5,0,-5,0" 
+		                  Title="Python 学而思网页版" Info="Python 3 是一种面向对象、直译式计算机程序设计语言。" 
+		                  EventType="打开网页" EventData="https://code.xueersi.com/ide/code/3" Type="Clickable" />
+                <local:MyListItem Margin="-5,0,-5,0" 
+		                  Title="Python 编程猫网页版" Info="即海龟编辑器，它可以使用图形化积木编写 Python 代码。" 
+		                  EventType="打开网页" EventData="https://wood.codemao.cn/" Type="Clickable" />
+            </StackPanel>
+        </local:MyCard>
+
+    </StackPanel>
+</local:MyCard>
+    
